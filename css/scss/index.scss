@@ -1,0 +1,186 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    margin: 0;
+    padding: 0;
+}
+body, button, input, select, textarea {
+    font: 12px SimSun,tahoma,arial,sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #565656
+}
+ul,li{
+	list-style: none;
+}
+#global_nav{
+    width: 100%;
+    min-width: 1200px;
+    height: 29px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+.backindex a{
+	color: #ff0033
+}
+.global_nav{
+	width: 1200px;
+	margin:0 auto;
+	line-height: 30px;
+}
+.global_info ul{
+	display: inline;
+	margin-right: 10px;
+}
+.global_info.fr ul {
+    border-right: 1px solid #ddd;
+}
+.global_info li{
+	display: inline;
+	margin:0 7px;
+	
+}
+
+.global_info.fr{
+	margin-right: -20px;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+#hdzhuce li{
+	margin:0 1px;
+}
+.global_info li s {
+    display: inline-block;
+    width: 12px;
+    height: 10px;
+    background: url(../../images/icon.png) no-repeat -32px -28px;
+    margin-right: 5px;
+    vertical-align: -1px;
+}
+.global_info li a:hover{
+	color: #c80a28
+}
+
+
+.webdhbox {
+    margin: 0 auto;
+    width: 1200px;
+ 	position: relative;
+ 	right: 0px;
+   	
+    z-index: 300;
+    opacity: 0;
+}
+
+.webdh {
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+    border: #e5e5e5 1px solid;
+    border-top: none;
+    padding: 7px;
+    background: #fff;
+    font-size: 12px;
+}
+
+.webdh ul li {
+	float: left;
+    width: 50%;
+    line-height: 24px;
+}
+.hot {
+    width: 15%;
+    float: left;
+    border-right: #e5e5e5 1px solid;
+    margin-left: 25px;
+    height: 137px;
+}
+.hot h1 {
+    font-size: 16px;
+    color: #f56b03;
+    line-height: 35px;
+    font-weight: bold;
+}
+.hstyle {
+    width: 25%;
+    float: left;
+    border-right: #e5e5e5 1px solid;
+    margin-left: 25px;
+    height: 137px;
+}
+.amh {
+    width: 15%;
+    float: left;
+    border-right: #e5e5e5 1px solid;
+    margin-left: 25px;
+    height: 137px;
+}
+.mini {
+    width: 16%;
+    float: left;
+    border-right: #e5e5e5 1px solid;
+    margin-left: 25px;
+    height: 137px;
+}
+.help {
+    width: 15%;
+    float: left;
+    margin-left: 25px;
+    height: 137px;
+}
+.hstyle h1 {
+    font-size: 16px;
+    color: #ec0736;
+    line-height: 35px;
+    font-weight: bold;
+}
+.amh h1 {
+    font-size: 16px;
+    color: #2263d4;
+    line-height: 35px;
+    font-weight: bold;
+}
+.mini h1 {
+    font-size: 16px;
+    color: #5e8e3d;
+    line-height: 35px;
+    font-weight: bold;
+}
+.help h1 {
+    font-size: 16px;
+    color: #686868;
+    line-height: 35px;
+    font-weight: bold;
+}
+.hot h1 span,.hstyle h1 span,.amh h1 span,.mini h1 span,.help h1 span{ 
+	font-family:Arial, Helvetica, sans-serif; 
+	margin-left:3px;
+}
+.amh ul li,.mini ul li{ 
+	width:100%; 
+	line-height:24px; 
+	float:left; 
+}
+.hot a:hover{ 
+	color:#f56b03; 
+	text-decoration:underline;
+}
+.hstyle a:hover{ 
+	color:#ec0736;
+	text-decoration:underline;
+}
+.amh a:hover{ 
+	color:#2263d4; 
+	text-decoration:underline;
+}
+.mini a:hover{ 
+	color:#5e8e3d; 
+	text-decoration:underline;
+}
+.help a:hover{ 
+	color:#686868; 
+	text-decoration:underline;
+}
